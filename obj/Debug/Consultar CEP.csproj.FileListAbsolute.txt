@@ -1,0 +1,22 @@
+C:\Users\Zephyrum\source\repos\Consultar CEP\bin\Debug\Consultar CEP.exe.config
+C:\Users\Zephyrum\source\repos\Consultar CEP\bin\Debug\Consultar CEP.exe
+C:\Users\Zephyrum\source\repos\Consultar CEP\bin\Debug\Consultar CEP.pdb
+C:\Users\Zephyrum\source\repos\Consultar CEP\bin\Debug\MaterialDesignColors.dll
+C:\Users\Zephyrum\source\repos\Consultar CEP\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\Zephyrum\source\repos\Consultar CEP\bin\Debug\MaterialDesignColors.pdb
+C:\Users\Zephyrum\source\repos\Consultar CEP\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\Zephyrum\source\repos\Consultar CEP\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\Zephyrum\source\repos\Consultar CEP\obj\Debug\Consultar CEP.csprojAssemblyReference.cache
+C:\Users\Zephyrum\source\repos\Consultar CEP\obj\Debug\MainWindow.g.cs
+C:\Users\Zephyrum\source\repos\Consultar CEP\obj\Debug\App.g.cs
+C:\Users\Zephyrum\source\repos\Consultar CEP\obj\Debug\Consultar CEP_MarkupCompile.cache
+C:\Users\Zephyrum\source\repos\Consultar CEP\obj\Debug\Consultar CEP_MarkupCompile.lref
+C:\Users\Zephyrum\source\repos\Consultar CEP\obj\Debug\App.baml
+C:\Users\Zephyrum\source\repos\Consultar CEP\obj\Debug\MainWindow.baml
+C:\Users\Zephyrum\source\repos\Consultar CEP\obj\Debug\Consultar CEP.g.resources
+C:\Users\Zephyrum\source\repos\Consultar CEP\obj\Debug\Consultar_CEP.Properties.Resources.resources
+C:\Users\Zephyrum\source\repos\Consultar CEP\obj\Debug\Consultar CEP.csproj.GenerateResource.cache
+C:\Users\Zephyrum\source\repos\Consultar CEP\obj\Debug\Consultar CEP.csproj.CoreCompileInputs.cache
+C:\Users\Zephyrum\source\repos\Consultar CEP\obj\Debug\Consultar CEP.csproj.CopyComplete
+C:\Users\Zephyrum\source\repos\Consultar CEP\obj\Debug\Consultar CEP.exe
+C:\Users\Zephyrum\source\repos\Consultar CEP\obj\Debug\Consultar CEP.pdb
