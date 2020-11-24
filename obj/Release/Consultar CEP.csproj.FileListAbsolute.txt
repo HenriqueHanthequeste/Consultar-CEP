@@ -1,0 +1,45 @@
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\Consultar CEP.exe.config
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\Consultar CEP.exe
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\Consultar CEP.pdb
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\MaterialDesignColors.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\MaterialDesignThemes.Wpf.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\Newtonsoft.Json.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\Refit.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\System.Buffers.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\System.Memory.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\System.Numerics.Vectors.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\System.Text.Encodings.Web.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\System.Text.Json.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\System.Threading.Tasks.Extensions.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\System.ValueTuple.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\MaterialDesignColors.pdb
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\MaterialDesignThemes.Wpf.pdb
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\MaterialDesignThemes.Wpf.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\Newtonsoft.Json.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\Refit.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\System.Buffers.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\System.Memory.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\System.Numerics.Vectors.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\System.Text.Encodings.Web.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\System.Text.Json.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\System.Threading.Tasks.Extensions.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Release\System.ValueTuple.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Release\Consultar CEP.csprojAssemblyReference.cache
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Release\MainWindow.g.cs
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Release\App.g.cs
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Release\Consultar CEP_MarkupCompile.cache
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Release\Consultar CEP_MarkupCompile.lref
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Release\App.baml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Release\MainWindow.baml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Release\Consultar CEP.g.resources
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Release\Consultar_CEP.Properties.Resources.resources
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Release\Consultar CEP.csproj.GenerateResource.cache
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Release\RefitStubs.g.cs
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Release\Consultar CEP.csproj.CoreCompileInputs.cache
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Release\Consultar CEP.csproj.CopyComplete
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Release\Consultar CEP.exe
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Release\Consultar CEP.pdb

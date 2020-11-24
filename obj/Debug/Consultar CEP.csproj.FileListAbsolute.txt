@@ -20,3 +20,48 @@ C:\Users\Zephyrum\source\repos\Consultar CEP\obj\Debug\Consultar CEP.csproj.Core
 C:\Users\Zephyrum\source\repos\Consultar CEP\obj\Debug\Consultar CEP.csproj.CopyComplete
 C:\Users\Zephyrum\source\repos\Consultar CEP\obj\Debug\Consultar CEP.exe
 C:\Users\Zephyrum\source\repos\Consultar CEP\obj\Debug\Consultar CEP.pdb
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Debug\Consultar CEP.csprojAssemblyReference.cache
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Debug\MainWindow.g.cs
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Debug\App.g.cs
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Debug\Consultar CEP_MarkupCompile.cache
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Debug\Consultar CEP_MarkupCompile.lref
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Debug\Consultar CEP.exe
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Debug\Consultar CEP.pdb
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\Consultar CEP.exe.config
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\Consultar CEP.exe
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\Consultar CEP.pdb
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\MaterialDesignColors.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\MaterialDesignThemes.Wpf.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\Newtonsoft.Json.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\Refit.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\System.Buffers.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\System.Memory.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\System.Text.Json.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\System.ValueTuple.dll
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\MaterialDesignColors.pdb
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\MaterialDesignThemes.Wpf.pdb
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\MaterialDesignThemes.Wpf.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\Newtonsoft.Json.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\Refit.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\System.Buffers.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\System.Memory.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\System.Text.Json.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\bin\Debug\System.ValueTuple.xml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Debug\App.baml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Debug\MainWindow.baml
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Debug\Consultar CEP.g.resources
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Debug\Consultar_CEP.Properties.Resources.resources
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Debug\Consultar CEP.csproj.GenerateResource.cache
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Debug\RefitStubs.g.cs
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Debug\Consultar CEP.csproj.CoreCompileInputs.cache
+C:\Users\henrique.sh\Desktop\Scripts\Em andamento\Consultar Cep\Consultar-Cep\obj\Debug\Consultar CEP.csproj.CopyComplete

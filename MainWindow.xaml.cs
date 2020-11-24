@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Consultar_CEP.references;
+using Refit;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -24,5 +26,52 @@ namespace Consultar_CEP
         {
             InitializeComponent();
         }
+
+        private void searchButton_Click(object sender, RoutedEventArgs e)
+        {
+            GetCEPFullAddress(cepSource.Text);
+        }
+
+        public async Task GetCEPFullAddress(string cep)
+        {
+            var cepAPI = RestService.For<ICepAPIService>("https://buscacepinter.correios.com.br");
+
+            var addresConsult = await cepAPI.GetAddressAsync(cep);
+
+            apiReturnBox.Text = addresConsult.mensagem;
+            logReturnBox.Text = addresConsult.dados[0].logradouroDNEC;
+            neigbhReturnBox.Text = addresConsult.dados[0].bairro;
+            cityReturnBox.Text = addresConsult.dados[0].localidade;
+            ufReturnBox.Text = addresConsult.dados[0].uf;
+
+            if(addresConsult.mensagem.StartsWith("ATENÇÃO!"))
+            {
+                newCEPReturnBox.Visibility = Visibility.Visible;
+                newCEPReturnBox.Text = addresConsult.dados[0].cep.Insert(5, "-");
+            } else
+            {
+                newCEPReturnBox.Visibility = Visibility.Hidden;
+            }
+
+            await GetRangeCEP(addresConsult.dados[0].uf, addresConsult.dados[0].localidade);
+        }
+
+        public async Task GetRangeCEP(string uf, string city)
+        {
+            var rangeCEPAPI = RestService.For<IRangeCEPAPIService>("https://buscacepinter.correios.com.br");
+
+            var rangeConsult = await rangeCEPAPI.GetRangeCEPAsync(uf, city);
+
+            cepRangeReturnBox.Text = rangeConsult.dados[0].faixasCep[0].cepInicial.Insert(5, "-") + " - " + rangeConsult.dados[0].faixasCep[0].cepFinal.Insert(5, "-");
+
+        }
+
+        //private void Window_PreviewKeyDown(object sender, KeyEventArgs e)
+        //{
+        //    if(e.Key == Key.Enter)
+        //    {
+        //        searchButton.
+        //    }
+        //}
     }
 }

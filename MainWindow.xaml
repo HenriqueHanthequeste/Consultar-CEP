@@ -6,14 +6,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Consultar_CEP"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="294.686" Background="#FFFBF6F0"
+        Title="Consultar CEP" Height="450" Width="294.686" Background="#FFFBF6F0" ResizeMode="NoResize" Icon="logo.png"
 >
     <Grid Margin="0,0,2,0">
         <Grid Width="125" Margin="10.593,-6.5,149.093,339.67">
             <TextBox x:Name="cepSource" materialDesign:HintAssist.Hint="Digite o CEP"  Style="{StaticResource MaterialDesignFloatingHintTextBox}"  VerticalAlignment="Center" Margin="0.5,10.86,3.5,10.86" FontSize="16" />
         </Grid>
         <Grid Margin="137.593,12.83,0,321">
-            <Button x:Name="searchButton" Style="{StaticResource MaterialDesignFlatDarkBgButton}" ToolTip="MaterialDesignFlatDarkButton" Margin="23,12,17,30" Background="#FFFFA45B" BorderBrush="#FFFFA45B">
+            <Button x:Name="searchButton" Style="{StaticResource MaterialDesignFlatDarkBgButton}" ToolTip="MaterialDesignFlatDarkButton" Margin="23,12,17,30" Background="#FFFFA45B" BorderBrush="#FFFFA45B" Click="searchButton_Click" IsDefault="True">
                 Pesquisar
             </Button>
         </Grid>
@@ -28,6 +28,7 @@
                 materialDesign:HintAssist.Hint="Retorno da API" TextAlignment="Center">
             </TextBox>
         </StackPanel>
+        
         <TextBox x:Name="logReturnBox" Style="{StaticResource MaterialDesignOutlinedTextFieldTextBox}"
             VerticalAlignment="Top"
             Height="38.5"
@@ -67,12 +68,13 @@
             TextWrapping="Wrap"
             VerticalScrollBarVisibility="Auto"
             materialDesign:HintAssist.Hint="UF" Margin="10,341.5,198.593,0"/>
+        
         <TextBox x:Name="newCEPReturnBox" Style="{StaticResource MaterialDesignOutlinedTextFieldTextBox}"
             VerticalAlignment="Top"
             Height="38.5"
             AcceptsReturn="True"
             TextWrapping="Wrap"
             VerticalScrollBarVisibility="Auto"
-            materialDesign:HintAssist.Hint="Novo CEP" Margin="91.093,341.5,10,0"/>
+            materialDesign:HintAssist.Hint="Novo CEP" Margin="91.093,341.5,10,0" Visibility="Hidden"/>
     </Grid>
 </Window>
