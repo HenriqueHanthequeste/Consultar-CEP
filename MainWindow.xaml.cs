@@ -40,20 +40,38 @@ namespace Consultar_CEP
 
             apiReturnBox.Text = addresConsult.mensagem;
             logReturnBox.Text = addresConsult.dados[0].logradouroDNEC;
-            neigbhReturnBox.Text = addresConsult.dados[0].bairro;
-            cityReturnBox.Text = addresConsult.dados[0].localidade;
+
+            //Sometimes, the API Return data in localidadeSubordinada. When it happens, the software is unable to interpret
+            if(addresConsult.dados[0].localidadeSubordinada != "")
+            {
+                cityReturnBox.Text = addresConsult.dados[0].localidadeSubordinada;
+                neigbhReturnBox.Text = addresConsult.dados[0].localidade;
+            }
+            else
+            {
+                neigbhReturnBox.Text = addresConsult.dados[0].bairro;
+                cityReturnBox.Text = addresConsult.dados[0].localidade;
+            }
+            
             ufReturnBox.Text = addresConsult.dados[0].uf;
 
-            if(addresConsult.mensagem.StartsWith("ATENÇÃO!"))
+            if (addresConsult.dados[0].localidadeSubordinada != "")
+            {
+                await GetRangeCEP(addresConsult.dados[0].uf, addresConsult.dados[0].localidadeSubordinada);
+            } else
+            {
+                await GetRangeCEP(addresConsult.dados[0].uf, addresConsult.dados[0].localidade);
+            }
+
+            if (addresConsult.mensagem.StartsWith("ATENÇÃO!"))
             {
                 newCEPReturnBox.Visibility = Visibility.Visible;
                 newCEPReturnBox.Text = addresConsult.dados[0].cep.Insert(5, "-");
-            } else
+            }
+            else
             {
                 newCEPReturnBox.Visibility = Visibility.Hidden;
             }
-
-            await GetRangeCEP(addresConsult.dados[0].uf, addresConsult.dados[0].localidade);
         }
 
         public async Task GetRangeCEP(string uf, string city)
