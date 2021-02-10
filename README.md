@@ -9,6 +9,8 @@ Essa ferramenta foi criada no intuito de agilizar o processo de consulta de CEP'
 * Refit
 * Newtonsoft.Json
 
+_**OBS: Necessita de conexão à internet para a utilização.**_
+
 **Prints da interface da Ferramenta:**  
   
 ![Imagem 1](https://github.com/HZephyrum/Consultar-CEP/blob/master/Prints/1.jpg?raw=true)
