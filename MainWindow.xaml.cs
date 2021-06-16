@@ -22,66 +22,63 @@ namespace Consultar_CEP
     /// </summary>
     public partial class MainWindow : Window
     {
+        CEPRequest cEPRequest;
+        RangeCEPRequest rangeCEPRequest;
         public MainWindow()
         {
             InitializeComponent();
+            cEPRequest = new CEPRequest();
+            rangeCEPRequest = new RangeCEPRequest();
         }
 
         private void searchButton_Click(object sender, RoutedEventArgs e)
         {
-            GetCEPFullAddress(cepSource.Text);
-        }
+            //GetCEPFullAddress(cepSource.Text);
 
-        public async Task GetCEPFullAddress(string cep)
-        {
-            var cepAPI = RestService.For<ICepAPIService>("https://buscacepinter.correios.com.br");
-
-            var addresConsult = await cepAPI.GetAddressAsync(cep);
-
-            apiReturnBox.Text = addresConsult.mensagem;
-            logReturnBox.Text = addresConsult.dados[0].logradouroDNEC;
-
-            //Sometimes, the API Return data in localidadeSubordinada. When it happens, the software is unable to interpret
-            if(addresConsult.dados[0].localidadeSubordinada != "")
+            try
             {
-                cityReturnBox.Text = addresConsult.dados[0].localidadeSubordinada;
-                neigbhReturnBox.Text = addresConsult.dados[0].localidade;
+                CEPResponse response = cEPRequest.GetCEPResponse(cepSource.Text);
+
+                apiReturnBox.Text = response.mensagem;
+                logReturnBox.Text = response.dados[0].logradouroDNEC;
+
+                //Sometimes, the API Return data in localidadeSubordinada. When it happens, the software is unable to interpret
+                if (response.dados[0].localidadeSubordinada != "")
+                {
+                    cityReturnBox.Text = response.dados[0].localidadeSubordinada;
+                    neigbhReturnBox.Text = response.dados[0].localidade;
+                }
+                else
+                {
+                    neigbhReturnBox.Text = response.dados[0].bairro;
+                    cityReturnBox.Text = response.dados[0].localidade;
+                }
+
+                ufReturnBox.Text = response.dados[0].uf;
+
+                if (response.dados[0].localidadeSubordinada != "")
+                {
+                    RangeCEPResponse rangeCEPResponse = rangeCEPRequest.GetRangeCEPResponse(response.dados[0].uf, response.dados[0].localidadeSubordinada);
+                }
+                else
+                {
+                    RangeCEPResponse rangeCEPResponse = rangeCEPRequest.GetRangeCEPResponse(response.dados[0].uf, response.dados[0].localidade);
+                    cepRangeReturnBox.Text = rangeCEPResponse.dados[0].faixasCep[0].cepInicial.Insert(5, "-") + " - " + rangeCEPResponse.dados[0].faixasCep[0].cepFinal.Insert(5, "-");
+                }
+
+                if (response.mensagem.StartsWith("ATENÇÃO!"))
+                {
+                    newCEPReturnBox.Visibility = Visibility.Visible;
+                    newCEPReturnBox.Text = response.dados[0].cep.Insert(5, "-");
+                }
+                else
+                {
+                    newCEPReturnBox.Visibility = Visibility.Hidden;
+                }
+            } catch (Exception exp)
+            {
+                MessageBox.Show($"Verifique o CEP Digitado!\nErro Gerado: {exp.Message}","Verifique o CEP digitado",MessageBoxButton.OK,MessageBoxImage.Error);
             }
-            else
-            {
-                neigbhReturnBox.Text = addresConsult.dados[0].bairro;
-                cityReturnBox.Text = addresConsult.dados[0].localidade;
-            }
-            
-            ufReturnBox.Text = addresConsult.dados[0].uf;
-
-            if (addresConsult.dados[0].localidadeSubordinada != "")
-            {
-                await GetRangeCEP(addresConsult.dados[0].uf, addresConsult.dados[0].localidadeSubordinada);
-            } else
-            {
-                await GetRangeCEP(addresConsult.dados[0].uf, addresConsult.dados[0].localidade);
-            }
-
-            if (addresConsult.mensagem.StartsWith("ATENÇÃO!"))
-            {
-                newCEPReturnBox.Visibility = Visibility.Visible;
-                newCEPReturnBox.Text = addresConsult.dados[0].cep.Insert(5, "-");
-            }
-            else
-            {
-                newCEPReturnBox.Visibility = Visibility.Hidden;
-            }
-        }
-
-        public async Task GetRangeCEP(string uf, string city)
-        {
-            var rangeCEPAPI = RestService.For<IRangeCEPAPIService>("https://buscacepinter.correios.com.br");
-
-            var rangeConsult = await rangeCEPAPI.GetRangeCEPAsync(uf, city);
-
-            cepRangeReturnBox.Text = rangeConsult.dados[0].faixasCep[0].cepInicial.Insert(5, "-") + " - " + rangeConsult.dados[0].faixasCep[0].cepFinal.Insert(5, "-");
-
         }
 
         //private void Window_PreviewKeyDown(object sender, KeyEventArgs e)
