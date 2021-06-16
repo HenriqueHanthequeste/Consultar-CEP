@@ -12,7 +12,7 @@ namespace Consultar_CEP.references
     {
         public RangeCEPResponse GetRangeCEPResponse(string uf, string localidade)
         {
-            var client = new RestClient("https://buscacepinter.correios.com.br/app/faixa_cep_uf_localidade/carrega-faixa-cep-uf.php");
+            var client = new RestClient("https://buscacepinter.correios.com.br/app/faixa_cep_uf_localidade/carrega-faixa-cep-uf-localidade.php");
 
             client.Timeout = -1;
             client.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36";
